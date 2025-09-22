@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/c2/9a/87/c29a8738f8c1e2a044c51b08fff783cd.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 100%;
+}
+
+header{
+    background-color: #00a2ff;
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+
+.name{
+    float: left;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    float: left;
+    animation: log 4s ;
+}
+
+@keyframes log{
+    0%{
+        transform: rotate(0deg) scale(1);
+    }
+    50%{
+        transform: rotate(360deg) scale(15);
+        margin-left: 50%;
+        margin-top:100px;
+    }
+    100%{
+        transform: rotate(720deg) scale(1);
+    }
+}
+
+nav{
+    float: right;
+    display: flex;
+    margin: 20px;
+}
+
+.nav-link{
+    padding-left:30px ;
+    font-size: 25px;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+    background-color: #8ad0ff;
+}
+
+.tablic{
+    width: 80%;
+    margin: auto;
+     border: 1px solid grey;
+     background-color: #fff;
+}
+
+th {
+   border: 1px solid grey;
+}
+
+td {
+   border: 1px solid grey;
+}
+
+.chet{
+    background: #1d32a7;
+}
+
