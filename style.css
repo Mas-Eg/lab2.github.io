@@ -67,10 +67,11 @@ td {
     background: #1d32a7;
 }
 #element{
-    margin-left 30px;
-    margin-top 15px;
+    margin-left: 30px;
+    margin-top: 15px;
     float: left;
 }
+
 
 
 
