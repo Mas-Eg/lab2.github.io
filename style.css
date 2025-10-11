@@ -69,7 +69,7 @@ td {
 footer{
     heigth: 60px;
     width: 100%;
-    background: grey;
+    background-color: grey;
 }
 
 
@@ -79,6 +79,7 @@ footer{
     margin-top: 15px;
     float: left;
 }
+
 
 
 
