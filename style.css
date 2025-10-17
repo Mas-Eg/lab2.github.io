@@ -66,13 +66,12 @@ td {
 .chet{
     background: #1d32a7;
 }
+
 footer{
-    height: 60px;
+    background-color: #6495ED;
     width: 100%;
-    background-color: grey;
+    height: 60px;
 }
-
-
 
 .name2{
     margin-left: 30px;
@@ -80,6 +79,7 @@ footer{
     float: left;
     color: #bdc4d4;
 }
+
 
 
 
